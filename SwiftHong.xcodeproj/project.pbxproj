@@ -13,6 +13,7 @@
 		9CD4C90B2545A86F00D9EDF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD4C9092545A86F00D9EDF2 /* Main.storyboard */; };
 		9CD4C90D2545A87300D9EDF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD4C90C2545A87300D9EDF2 /* Assets.xcassets */; };
 		9CD4C9102545A87300D9EDF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD4C90E2545A87300D9EDF2 /* LaunchScreen.storyboard */; };
+		9CD4C9192545AA8500D9EDF2 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4C9182545AA8500D9EDF2 /* common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9CD4C90C2545A87300D9EDF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CD4C90F2545A87300D9EDF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CD4C9112545A87300D9EDF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CD4C9182545AA8500D9EDF2 /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9CD4C90C2545A87300D9EDF2 /* Assets.xcassets */,
 				9CD4C90E2545A87300D9EDF2 /* LaunchScreen.storyboard */,
 				9CD4C9112545A87300D9EDF2 /* Info.plist */,
+				9CD4C9182545AA8500D9EDF2 /* common.swift */,
 			);
 			path = SwiftHong;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD4C9192545AA8500D9EDF2 /* common.swift in Sources */,
 				9CD4C9082545A86F00D9EDF2 /* ViewController.swift in Sources */,
 				9CD4C9042545A86F00D9EDF2 /* AppDelegate.swift in Sources */,
 				9CD4C9062545A86F00D9EDF2 /* SceneDelegate.swift in Sources */,
@@ -293,6 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.SwiftHong";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -312,6 +317,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "--.SwiftHong";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
